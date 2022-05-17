@@ -79,6 +79,8 @@ public class FrogMovement : MonoBehaviour
         TilePath tc;
         if (Physics.Raycast(transform.position , Vector3.down, out hit))
         {
+
+
             tc = hit.transform.gameObject.GetComponent<TilePath>();
             if (tc == null)    
             {
@@ -89,11 +91,9 @@ public class FrogMovement : MonoBehaviour
                     StartCoroutine(TilesManager.current.EndGame());
                     return;
                 }
-                if (hit.transform.gameObject.CompareTag("Death")||hit.transform.gameObject.CompareTag("Car"))
-                {
-                    StartCoroutine(TilesManager.current.EndGame());
-                    return;
-                }
+                StartCoroutine(TilesManager.current.EndGame());
+                return;
+
             }
 
             if (tc.target == null)
@@ -107,6 +107,8 @@ public class FrogMovement : MonoBehaviour
             finish = false;
             return;
         }
+        StartCoroutine(TilesManager.current.EndGame());
+
 
     }
 

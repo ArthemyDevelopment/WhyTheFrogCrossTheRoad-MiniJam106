@@ -20,7 +20,7 @@ public class TimeControll : MonoBehaviour
 
     public void StartTimer()
     {
-        if (TilesManager.current.actState == GameStates.think)
+
             StartCoroutine(timer());
     }
 

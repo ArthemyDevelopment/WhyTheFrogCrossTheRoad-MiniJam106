@@ -619,6 +619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 2176476053870290011, guid: efe4d0c33b34c824f930bbfef2ba9397, type: 3}
+      propertyPath: m_TagString
+      value: Death
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efe4d0c33b34c824f930bbfef2ba9397, type: 3}
 --- !u!4 &653155014 stripped
@@ -1320,7 +1324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3302847505115927887, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: Time
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3302847505162456804, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -1417,6 +1421,34 @@ PrefabInstance:
     - target: {fileID: 3302847505795371528, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: GoToScene
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1189241159}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1189241160}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartMovement
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FrogMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505890737596, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TimeControll, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3302847505908459392, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1546,6 +1578,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce071eeb99dc52f4791589eadbc31273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1189241159 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3302847506910176171, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+  m_PrefabInstance: {fileID: 1189241156}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9073f0b2ef5bd4ea0b0425d000988a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1189241160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3302847505115927887, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+  m_PrefabInstance: {fileID: 1189241156}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b47d34c91d214744862c5f6124166ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1225624510

@@ -24,10 +24,8 @@ public class CarMovement : MonoBehaviour
 
     public void StartMovement()
     {
-        if (TilesManager.current.actState == GameStates.think)
-        {
-            finish = false;
-        }
+
+        finish = false; 
     }
 
     private void Update()

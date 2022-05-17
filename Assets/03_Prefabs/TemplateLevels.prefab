@@ -128,6 +128,7 @@ MonoBehaviour:
   - {fileID: 5711842940908593257}
   - {fileID: 6043899691450393283}
   - {fileID: 4838480524130460668}
+  LevelCars: []
 --- !u!114 &3302847505115927887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3302847505217151192}
   m_LocalRotation: {x: 0.10938167, y: -0.8754261, z: 0.40821788, w: 0.23456976}
-  m_LocalPosition: {x: -869.498, y: -301.216, z: 5.43}
+  m_LocalPosition: {x: -871.21027, y: -300.8554, z: 5.9281373}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -287,7 +288,7 @@ Camera:
   far clip plane: 11
   field of view: 60
   orthographic: 1
-  orthographic size: 2.8
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1265,18 +1266,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3302847506910176171}
         m_TargetAssemblyTypeName: FrogMovement, Assembly-CSharp
-        m_MethodName: StartMovement
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CarMovement, Assembly-CSharp
         m_MethodName: StartMovement
         m_Mode: 1
         m_Arguments:
