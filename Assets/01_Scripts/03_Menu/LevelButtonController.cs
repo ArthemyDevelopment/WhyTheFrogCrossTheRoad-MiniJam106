@@ -19,27 +19,7 @@ public class LevelButtonController : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        if (!LevelsManager.current.Levels.ContainsKey(thisLevel.ThisLevel))
-        {
-            LevelsManager.current.Levels.Add(thisLevel.ThisLevel, thisLevel);
-        }
-        int temp = 0;
-        foreach (var level in thisLevel.prevLevels)
-        {
-            if (LevelsManager.current.Levels[level].B_WasCompleted)
-                temp++;
-        }
 
-        if (temp == thisLevel.prevLevels.Length)
-            thisButton.enabled = true;
-        else
-            thisButton.enabled = false;
-
-        thisLevel.ApplyLevel(LevelsManager.current.Levels[thisLevel.ThisLevel]);
-        Medal.sprite = LevelsManager.current.Medals[thisLevel.I_Score];
-    }
 
     private void Start()
     {
@@ -51,9 +31,9 @@ public class LevelButtonController : MonoBehaviour
         }
 
         if (temp == thisLevel.prevLevels.Length)
-            thisButton.enabled = true;
+            thisButton.interactable = true;
         else
-            thisButton.enabled = false;
+            thisButton.interactable = false;
 
         thisLevel.ApplyLevel(LevelsManager.current.Levels[thisLevel.ThisLevel]);
         Medal.sprite = LevelsManager.current.Medals[thisLevel.I_Score];
