@@ -186,6 +186,7 @@ MonoBehaviour:
   PosibleMoves: 0000000001000000
   YMove: 0.5
   MoveFeedback: {fileID: 8935310158202939050}
+  ConfirmFeedback: {fileID: 5573044791403493736}
   RotateFeedback: {fileID: 7409680866873530286}
   WrongFeedback: {fileID: 5662237186821716891}
   LerpTime: 0.1
@@ -276,6 +277,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2133b068686c80a46939fe1192549913, type: 3}
+--- !u!114 &5573044791403493736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2601615293248197557, guid: 2133b068686c80a46939fe1192549913, type: 3}
+  m_PrefabInstance: {fileID: 7587903357146786525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5662237186821716891 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2871585026824835398, guid: 2133b068686c80a46939fe1192549913, type: 3}

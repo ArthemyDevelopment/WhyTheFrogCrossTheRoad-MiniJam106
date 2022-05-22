@@ -112,8 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 735d4b9f52c3ea34e93eac147c1eb952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisLevel: 0
   actState: 0
-  startTime: 1.5
+  startTime: 0.5
   deathTime: 1
   endTime: 1.5
   timeScale: 0.3
@@ -129,6 +130,7 @@ MonoBehaviour:
   - {fileID: 6043899691450393283}
   - {fileID: 4838480524130460668}
   LevelCars: []
+  B_debug: 0
 --- !u!114 &3302847505115927887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,7 +334,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 1.5
+    m_Time: 2
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []

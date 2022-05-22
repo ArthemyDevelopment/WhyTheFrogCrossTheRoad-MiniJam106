@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public SceneIndex GoToScene;
+    public LevelList GoToScene;
 
 
     public void changeScene()

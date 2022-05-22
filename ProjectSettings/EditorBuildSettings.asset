@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00_Scenes/MainMenu.unity
-    guid: a711b10b4cdc7a94ca1e1d5ca01787ea
+    path: Assets/00_Scenes/InitGame.unity
+    guid: d2be2944442541341916b264d4fd45cd
   - enabled: 1
     path: Assets/00_Scenes/00_Levels/Level_1.unity
     guid: 045cc8ac4a794c040b46f17094a516e5
@@ -23,4 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00_Scenes/00_Levels/Level_5.unity
     guid: 3b36a974aa6914348bcc8559eb0f1917
+  - enabled: 1
+    path: Assets/00_Scenes/00_Levels/Level_6.unity
+    guid: b97a3f9e456cbd84c931d526fb4b9981
+  - enabled: 1
+    path: Assets/00_Scenes/00_Levels/Level_7.unity
+    guid: 07df42cc00f6b5a429eab2ebf64cc312
+  - enabled: 1
+    path: Assets/00_Scenes/00_Levels/Level_8.unity
+    guid: f9d6649a7e4bb5d4a8185aeb935093a3
+  - enabled: 1
+    path: Assets/00_Scenes/00_Levels/Level_9.unity
+    guid: 949fcdbca007fe94b884292c3fefa59f
+  - enabled: 1
+    path: Assets/00_Scenes/00_Levels/Level_10.unity
+    guid: c59022598765a9542b4c86a073a79e48
+  - enabled: 1
+    path: Assets/00_Scenes/MainMenu.unity
+    guid: a711b10b4cdc7a94ca1e1d5ca01787ea
   m_configObjects: {}

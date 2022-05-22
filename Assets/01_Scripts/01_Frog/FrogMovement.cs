@@ -96,6 +96,7 @@ public class FrogMovement : MonoBehaviour
 
             }
 
+
             if (tc.target == null)
             {
                 StartCoroutine(TilesManager.current.EndGame());

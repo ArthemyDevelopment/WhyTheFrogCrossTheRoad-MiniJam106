@@ -56,6 +56,7 @@ public class CarMovement : MonoBehaviour
 
     void SetEndPos()
     {
+        Debug.Log("set car end pos");
         startPos = transform.position;
         EndPos = transform.position + transform.forward;
         startTime = 0;
@@ -65,7 +66,7 @@ public class CarMovement : MonoBehaviour
     void EndLerp()
     {
 
-        if (TilesManager.current.actState == GameStates.frogPath)
+        if (TilesManager.current.actState == GameStates.frogPath|| TilesManager.current.B_debug)
         {
             RaycastHit hit;
 
@@ -73,7 +74,8 @@ public class CarMovement : MonoBehaviour
             if (Physics.Raycast(transform.position , Vector3.down, out hit))
             {
                 tc = hit.transform.gameObject.GetComponent<carPath>();
-                transform.LookAt(new Vector3(tc.target.position.x,transform.position.y,tc.target.position.z));
+                if(tc.target != null)
+                    transform.LookAt(new Vector3(tc.target.position.x,transform.position.y,tc.target.position.z));
                 SetEndPos();
                 finish = false;
 

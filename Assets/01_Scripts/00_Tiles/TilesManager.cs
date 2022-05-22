@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class TilesManager : SingletonManager<TilesManager>
 {
+    public LevelList thisLevel;
     private bool isSelected;
     public GameStates actState;
     public float startTime;
@@ -25,6 +26,8 @@ public class TilesManager : SingletonManager<TilesManager>
 
 
     public CarMovement[] LevelCars;
+    public bool B_debug;
+
     private void Awake()
     {
 
@@ -64,6 +67,9 @@ public class TilesManager : SingletonManager<TilesManager>
     private void ScoreScreen()
     {
         ScoreCanvas.SetActive(true);
+        LevelsManager.current.Levels[thisLevel].I_Score = Score;
+        if(Score> 0)
+            LevelsManager.current.Levels[thisLevel].B_WasCompleted =true;
     }
 
 
@@ -76,8 +82,6 @@ public class TilesManager : SingletonManager<TilesManager>
             Rotate();
         }
     }
-
-
 
 
     void Move()

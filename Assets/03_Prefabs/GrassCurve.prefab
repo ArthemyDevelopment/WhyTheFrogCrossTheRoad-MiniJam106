@@ -192,6 +192,7 @@ MonoBehaviour:
   PosibleMoves: 0000000001000000
   YMove: 0.5
   MoveFeedback: {fileID: 3201297104941174870}
+  ConfirmFeedback: {fileID: 2106203909827809172}
   RotateFeedback: {fileID: 3943370430909260114}
   WrongFeedback: {fileID: 2231988017057402215}
   LerpTime: 0.1
@@ -387,6 +388,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4378514986585687394, guid: 2133b068686c80a46939fe1192549913, type: 3}
   m_PrefabInstance: {fileID: 4116419907981876257}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2106203909827809172 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2601615293248197557, guid: 2133b068686c80a46939fe1192549913, type: 3}
+  m_PrefabInstance: {fileID: 4116419907981876257}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2231988017057402215 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2871585026824835398, guid: 2133b068686c80a46939fe1192549913, type: 3}

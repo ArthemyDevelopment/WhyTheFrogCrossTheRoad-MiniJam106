@@ -9,6 +9,7 @@ public class TileController : MonoBehaviour
     public List<TileMoves> PosibleMoves;
     public float YMove;
     public MMF_Player MoveFeedback;
+    public MMF_Player ConfirmFeedback;
     public MMF_Player RotateFeedback;
     public MMF_Player WrongFeedback;
     public float LerpTime;
@@ -117,6 +118,7 @@ public class TileController : MonoBehaviour
     public void Swap(Vector3 v)
     {
         transform.position = new Vector3(v.x,StartPos.y,v.z);
+        ConfirmFeedback.PlayFeedbacks();
         SetPos();
     }
 }

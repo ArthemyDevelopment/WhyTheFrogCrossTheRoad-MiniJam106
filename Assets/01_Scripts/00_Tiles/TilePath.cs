@@ -5,7 +5,8 @@ using UnityEngine;
 public class TilePath : MonoBehaviour
 {
     public Transform target;
-
+    
+    
     public void SetTarget(Transform t)
     {
         Debug.Log("Set target");

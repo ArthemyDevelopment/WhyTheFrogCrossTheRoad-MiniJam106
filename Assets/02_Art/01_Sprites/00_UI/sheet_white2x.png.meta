@@ -500,12 +500,12 @@ TextureImporter:
       name: sheet_white2x_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1966
+        x: 118
+        y: 564
         width: 64
-        height: 64
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2156,27 +2156,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_white2x_118
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 564
-        width: 16
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8116e642258e07440800000000000000
-      internalID: 4931697031466869016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sheet_white2x_119
       rect:
         serializedVersion: 2
@@ -2240,27 +2219,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_white2x_122
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 564
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d6b24ee970e82050800000000000000
-      internalID: 5776113336395675353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sheet_white2x_123
       rect:
         serializedVersion: 2
@@ -2303,27 +2261,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_white2x_125
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 464
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60873622e6f9a11c0800000000000000
-      internalID: -4532134779622819834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sheet_white2x_127
       rect:
         serializedVersion: 2
@@ -2351,7 +2288,7 @@ TextureImporter:
         x: 318
         y: 464
         width: 64
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2361,27 +2298,6 @@ TextureImporter:
       bones: []
       spriteID: 387322b8a03e859a0800000000000000
       internalID: -6243991248925739133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_white2x_130
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 488
-        width: 32
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7149db9c79b104e0800000000000000
-      internalID: -2017127213243481732
       vertices: []
       indices: 
       edges: []
@@ -2974,6 +2890,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sheet_white2x_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 464
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13280559b96884a879029d1107b0d0
+      internalID: -1487966345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3010,10 +2947,10 @@ TextureImporter:
       sheet_white2x_121: -4098115624964656274
       sheet_white2x_105: -6408869868180780052
       sheet_white2x_113: 8521127957344872186
-      sheet_white2x_38: -5407506169051849089
       sheet_white2x_40: -8360213444618251679
       sheet_white2x_151: 2010578650163649250
       sheet_white2x_35: 1221971940966469167
+      sheet_white2x_38: -5407506169051849089
       sheet_white2x_76: 7709631203472704749
       sheet_white2x_143: -8763347753406862898
       sheet_white2x_152: 5463914341369154008
@@ -3043,19 +2980,20 @@ TextureImporter:
       sheet_white2x_73: 6323426868568382805
       sheet_white2x_3: 4964635284764557786
       sheet_white2x_157: 8692852675751131801
-      sheet_white2x_14: 2057508617555048170
       sheet_white2x_102: -4265006878985007113
-      sheet_white2x_88: -3122604328310779665
-      sheet_white2x_85: 1659212832947455779
-      sheet_white2x_114: -1338085845025269059
-      sheet_white2x_117: -6477005375395134455
+      sheet_white2x_14: 2057508617555048170
       sheet_white2x_77: 1715603959206205095
+      sheet_white2x_114: -1338085845025269059
+      sheet_white2x_88: -3122604328310779665
+      sheet_white2x_117: -6477005375395134455
+      sheet_white2x_85: 1659212832947455779
       sheet_white2x_68: 6871975071513910000
       sheet_white2x_69: 8062339891068530215
       sheet_white2x_39: 1536401283024858575
       sheet_white2x_34: -7105514973108234374
       sheet_white2x_115: 1172798162505635299
       sheet_white2x_133: 5130829821354636663
+      sheet_white2x_4: -1487966345
       sheet_white2x_6: -4747125512316219050
       sheet_white2x_109: -1907253454297212924
       sheet_white2x_21: 8657607248455390787
