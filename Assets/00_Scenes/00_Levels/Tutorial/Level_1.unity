@@ -183,7 +183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a83cff6d275612644b651130c1be5587, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 734940e365bc6a545a75572e06aec51d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -231,6 +231,14 @@ PrefabInstance:
     - target: {fileID: 3302847505162456807, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505217151194, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: far clip plane
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505217151194, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: near clip plane
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3302847505217151194, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: orthographic size
@@ -316,6 +324,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3302847506207109980, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 247
+      objectReference: {fileID: 0}
     - target: {fileID: 3302847506728777230, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -323,6 +335,10 @@ PrefabInstance:
     - target: {fileID: 3302847506910176175, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.0050845
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847507047392844, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302847507047392846, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -339,6 +355,10 @@ PrefabInstance:
     - target: {fileID: 3302847507047392847, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_Lens.OrthographicSize
       value: 2.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847507138034597, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 247
       objectReference: {fileID: 0}
     - target: {fileID: 3832231296230366039, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -363,6 +383,10 @@ PrefabInstance:
     - target: {fileID: 4132094385858819411, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75.4068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400849478290528749, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5378077377889156177, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -508,7 +532,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
 --- !u!114 &483274173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,10 +545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

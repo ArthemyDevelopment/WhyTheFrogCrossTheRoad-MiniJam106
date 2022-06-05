@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public static class ScriptsTools
@@ -39,6 +42,13 @@ public static class ScriptsTools
     {
         return Mathf.Atan2(target.position.y - originObject.position.y,  target.position.x - originObject.position.x) * Mathf.Rad2Deg;
     }
+    
+    public static Queue<T> ShuffleList<T>(List<T> thisList) //Shuffle a list and returns it as queue
+    {
+        Queue<T> temp = new Queue<T>(thisList.OrderBy(a => Guid.NewGuid()).ToList());
+
+        return temp;
+    }
 
 }
 
@@ -48,7 +58,7 @@ public static class Arguments<TFirstArgument>
     
 }
 
-public abstract class SingletonManager<T> : MonoBehaviour where T : SingletonManager<T>
+public abstract class SingletonManager<T> : SerializedMonoBehaviour where T : SingletonManager<T>
 {
     public static T current; 
     

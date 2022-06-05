@@ -11,6 +11,9 @@ public class VictoryManager : MonoBehaviour
     public GameObject VictoryText;
     public GameObject LoseText;
     public GameObject NextLevel;
+    public ChangeScene retryScene;
+    public ChangeScene nextScene;
+    public bool OverrideChangeScene;
 
 
     private void OnEnable()
@@ -27,7 +30,10 @@ public class VictoryManager : MonoBehaviour
             MedalIcons[i].sprite = Medals[i];
         }
 
-        
-        
+        if (OverrideChangeScene)
+            return;
+        retryScene.GoToScene = TilesManager.current.thisLevel;
+        nextScene.GoToScene = TilesManager.current.thisLevel+1;
+
     }
 }

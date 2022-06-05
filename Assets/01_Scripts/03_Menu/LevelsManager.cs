@@ -15,6 +15,9 @@ public class LevelsManager : SingletonManager<LevelsManager>
         init();
         DontDestroyOnLoad(this.gameObject);
     }
+
+
+
 }
 
 [Serializable]

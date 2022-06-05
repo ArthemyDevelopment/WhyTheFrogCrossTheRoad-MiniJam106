@@ -183,7 +183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a83cff6d275612644b651130c1be5587, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 734940e365bc6a545a75572e06aec51d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -215,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 3302847505115927885, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: Score
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302847505115927885, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: thisLevel
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3302847505162456804, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -348,6 +352,10 @@ PrefabInstance:
       propertyPath: m_Lens.OrthographicSize
       value: 2.09
       objectReference: {fileID: 0}
+    - target: {fileID: 3302847507138034597, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 247
+      objectReference: {fileID: 0}
     - target: {fileID: 3832231296230366039, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -371,6 +379,10 @@ PrefabInstance:
     - target: {fileID: 4132094385858819411, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -75.4068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400849478290528749, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5378077377889156177, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -450,7 +462,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 247
 --- !u!114 &483274173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,10 +475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

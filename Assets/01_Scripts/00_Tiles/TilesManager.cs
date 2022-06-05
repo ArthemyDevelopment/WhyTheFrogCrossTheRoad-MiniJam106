@@ -67,10 +67,14 @@ public class TilesManager : SingletonManager<TilesManager>
     private void ScoreScreen()
     {
         ScoreCanvas.SetActive(true);
-        LevelsManager.current.Levels[thisLevel].I_Score = Score;
-        if(Score> 0)
-            LevelsManager.current.Levels[thisLevel].B_WasCompleted =true;
-    }
+        if (Score > 0)
+        {
+            LevelsManager.current.Levels[thisLevel].I_Score = Score;
+            LevelsManager.current.Levels[thisLevel].B_WasCompleted = true;
+        }
+
+    
+}
 
 
     private void Update()

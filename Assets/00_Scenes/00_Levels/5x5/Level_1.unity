@@ -1190,6 +1190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 873421799}
     m_Modifications:
+    - target: {fileID: 2234722739708157517, guid: 05d915ba4746d474e87115b5b15aecf8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2666017224758455955, guid: 05d915ba4746d474e87115b5b15aecf8, type: 3}
       propertyPath: m_Name
       value: GrassCurve_05
@@ -1256,6 +1260,10 @@ PrefabInstance:
       propertyPath: thisLevel
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3302847505115927885, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 3302847505115927885, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
     - target: {fileID: 3302847505761629676, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_Name
       value: TemplateLevels
@@ -1312,6 +1320,10 @@ PrefabInstance:
       propertyPath: GoToScene
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3302847507138034597, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 247
+      objectReference: {fileID: 0}
     - target: {fileID: 3832231296230366039, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.295629
@@ -1332,6 +1344,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4400849478290528749, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5378077377889156177, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1347,6 +1363,10 @@ PrefabInstance:
     - target: {fileID: 5378077377889156177, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6825316098475067840, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7795640672822830413, guid: 17401e0b7f5029149935fb89775916c0, type: 3}
       propertyPath: m_AnchorMax.y
