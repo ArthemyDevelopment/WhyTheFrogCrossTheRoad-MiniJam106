@@ -338,6 +338,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: da46fa0e159beda4f871c39668b5006c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ddc2498462b9dc4d84755b92715bcb9, type: 2}
+    - target: {fileID: -7511558181221131132, guid: da46fa0e159beda4f871c39668b5006c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e0ef0533b278a44fa1ef2aa1e681166, type: 2}
     - target: {fileID: 919132149155446097, guid: da46fa0e159beda4f871c39668b5006c, type: 3}
       propertyPath: m_Name
       value: mushroom_brownGroup
@@ -412,6 +420,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
       propertyPath: m_Name
       value: grass_dense_01
@@ -486,6 +498,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
       propertyPath: m_Name
       value: grass_dense
@@ -560,6 +576,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c30670629ca140a458f96685167bdff8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: c30670629ca140a458f96685167bdff8, type: 3}
       propertyPath: m_Name
       value: grass_02
@@ -634,6 +654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c30670629ca140a458f96685167bdff8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: c30670629ca140a458f96685167bdff8, type: 3}
       propertyPath: m_Name
       value: grass
@@ -708,6 +732,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3ab27182d4198984fbffdc1db34614d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ddc2498462b9dc4d84755b92715bcb9, type: 2}
     - target: {fileID: 919132149155446097, guid: 3ab27182d4198984fbffdc1db34614d8, type: 3}
       propertyPath: m_Name
       value: mushroom_redTall
@@ -782,6 +810,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c30670629ca140a458f96685167bdff8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: c30670629ca140a458f96685167bdff8, type: 3}
       propertyPath: m_Name
       value: grass_01

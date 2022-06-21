@@ -670,6 +670,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -24.316
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8b46a01055ba70e4baa48553f153701c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8b46a01055ba70e4baa48553f153701c, type: 3}
       propertyPath: m_Name
       value: plant_bushDetailed
@@ -744,6 +748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -16.702
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3bd978b57f8afda44927f50bb6cc27e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 3bd978b57f8afda44927f50bb6cc27e8, type: 3}
       propertyPath: m_Name
       value: plant_flatSmall_01
@@ -818,6 +826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.331
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3bd978b57f8afda44927f50bb6cc27e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 3bd978b57f8afda44927f50bb6cc27e8, type: 3}
       propertyPath: m_Name
       value: plant_flatSmall

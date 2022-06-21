@@ -219,6 +219,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 40.199
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8b46a01055ba70e4baa48553f153701c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8b46a01055ba70e4baa48553f153701c, type: 3}
       propertyPath: m_Name
       value: plant_bushDetailed
@@ -371,6 +375,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -7.359
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 55a8014b3701de6488c8b714d3cf02bf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 55a8014b3701de6488c8b714d3cf02bf, type: 3}
       propertyPath: m_Name
       value: plant_flatLarge_01
@@ -445,6 +453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -42.46
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 55a8014b3701de6488c8b714d3cf02bf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 55a8014b3701de6488c8b714d3cf02bf, type: 3}
       propertyPath: m_Name
       value: plant_flatLarge
@@ -519,6 +531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 39.277
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22627547e35457b418266db5bd001679, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: 22627547e35457b418266db5bd001679, type: 3}
       propertyPath: m_Name
       value: plant_bush

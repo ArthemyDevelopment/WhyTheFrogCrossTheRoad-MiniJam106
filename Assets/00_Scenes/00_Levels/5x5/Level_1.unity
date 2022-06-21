@@ -264,6 +264,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8186551463303151820, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: MidleStopTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186551463708837163, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8186551464437290632, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -319,6 +327,22 @@ PrefabInstance:
     - target: {fileID: 8186551464748736087, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186551465067217853, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: far clip plane
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186551465067217853, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: near clip plane
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186551465099245098, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: endTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186551465099245098, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
+      propertyPath: timeScale
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8186551465099245098, guid: cc32650588e33fa4fb79ee612cc9bc7b, type: 3}
       propertyPath: serializationData.Prefab

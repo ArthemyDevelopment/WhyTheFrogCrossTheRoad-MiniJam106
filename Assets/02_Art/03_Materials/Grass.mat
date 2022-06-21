@@ -8,13 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Grass
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: f7e38193b7f064d7380403618fd8b69e, type: 3}
   m_ValidKeywords:
+  - _CELPRIMARYMODE_SINGLE
+  - _TEXTUREBLENDINGMODE_MULTIPLY
+  m_InvalidKeywords:
   - _GLOSSYREFLECTIONS_OFF
+  - _SEGMENTED_ON
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   - _SPECULARHIGHLIGHTS_OFF
-  m_InvalidKeywords:
-  - _SEGMENTED_ON
+  - _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -25,6 +28,14 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CelCurveTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CelStepTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -143,6 +154,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 1
+    - _AlphaClip: 0
     - _AlphaCutoffValue: 0.25
     - _AlphaFadeAmount: -0.1
     - _AlphaFadePow: 1
@@ -150,10 +162,14 @@ Material:
     - _AlphaStepMax: 0.075
     - _AlphaStepMin: 0
     - _AmbientCol: 0
+    - _Blend: 0
     - _BumpScale: 1
     - _CamDistFadeStepMax: 100
     - _CamDistFadeStepMin: 0
     - _CamDistProximityFade: 0
+    - _CelExtraEnabled: 0
+    - _CelNumSteps: 3
+    - _CelPrimaryMode: 1
     - _Clipped: 0
     - _ColBright: 0
     - _ColIntense: 1
@@ -161,6 +177,7 @@ Material:
     - _ColorMask: 15
     - _ColorRampBlend: 1
     - _ColorRampLuminosity: 0
+    - _Cull: 2
     - _CullingOption: 0
     - _Cutoff: 0.5
     - _DebugShape: 1
@@ -188,17 +205,32 @@ Material:
     - _FadeScrollXSpeed: 0
     - _FadeScrollYSpeed: 0
     - _FadeTransition: 0.075
+    - _FlatRimEdgeSmoothness: 0.5
+    - _FlatRimLightAlign: 0
+    - _FlatRimSize: 0.5
+    - _FlatSpecularEdgeSmoothness: 0
+    - _FlatSpecularSize: 0.1
+    - _Flatness: 0.2
+    - _FlatnessExtra: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Glow: 0
     - _GlowGlobal: -0.75
+    - _GradientAngle: 0
+    - _GradientCenterX: 0
+    - _GradientCenterY: 0
+    - _GradientEnabled: 0
+    - _GradientSize: 10
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 5
     - _HsvBright: 1
     - _HsvSaturation: 1
     - _HsvShift: 180
     - _LightAmount: 0
+    - _LightContribution: 0
+    - _LightmapDirectionPitch: 0
+    - _LightmapDirectionYaw: 0
     - _Lumin: 0
     - _MaskPow: 1
     - _MaxLight: 1
@@ -211,15 +243,20 @@ Material:
     - _OffsetSh2: 1
     - _OffsetSh3: 1
     - _OtlWidth: 0.02
+    - _OutlineDepthOffset: 0
+    - _OutlineWidth: 2
+    - _OverrideLightmapDir: 0
     - _Parallax: 0.02
     - _PixelateSize: 4
     - _PosterizeNumColors: 5
+    - _QueueOffset: 0
     - _RandomSh1Mult: 1
     - _RandomSh2Mult: 1
     - _RandomSh3Mult: 1
     - _RenderingMode: 0
     - _RimAddAmount: 1
     - _RimBias: 0
+    - _RimEnabled: 0
     - _RimErodesAlpha: 0
     - _RimIntensity: 1
     - _RimOffset: 0.24
@@ -231,10 +268,14 @@ Material:
     - _ScreenUvSh3DistScale: 1
     - _ScreenUvShDistScale: 1
     - _Segmented: 1
+    - _SelfShadingSize: 0.75
+    - _SelfShadingSizeExtra: 0.6
     - _Sh1BlendOffset: 0
     - _Sh2BlendOffset: 0
     - _Sh3BlendOffset: 0
     - _ShadowAmount: 0.4
+    - _ShadowEdgeSize: 0.004
+    - _ShadowEdgeSizeExtra: 0.05
     - _ShadowStepMax: 1
     - _ShadowStepMin: 0
     - _ShakeUvSpeed: 20
@@ -280,11 +321,15 @@ Material:
     - _ShnSmooth: 0
     - _SmoothnessTextureChannel: 1
     - _SoftFactor: 0.5
+    - _SpecularEnabled: 0
     - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _SrcMode: 5
     - _Steps: 6.3
     - _StpSmooth: 0
+    - _Surface: 0
+    - _TextureBlendingMode: 0
+    - _TextureImpact: 1
     - _TextureScrollXSpeed: 1
     - _TextureScrollYSpeed: 0
     - _TimingSeed: 0
@@ -294,10 +339,14 @@ Material:
     - _TwistUvPosY: 0.5
     - _TwistUvRadius: 0.75
     - _UVSec: 0
+    - _UnityShadowMode: 0
+    - _UnityShadowPower: 0.2
+    - _UnityShadowSharpness: 1
     - _VertOffsetAmount: 0.5
     - _VertOffsetPower: 1
     - _VertOffsetTexXSpeed: 0.1
     - _VertOffsetTexYSpeed: 0.1
+    - _VertexColorsEnabled: 0
     - _WaveAmount: 7
     - _WaveSpeed: 10
     - _WaveStrength: 7.5
@@ -309,6 +358,11 @@ Material:
     m_Colors:
     - _BackFaceTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5294118, g: 0.65882355, b: 0.5372549, a: 1}
+    - _ColorDim: {r: 0.36482146, g: 0.45400003, b: 0.3702262, a: 1}
+    - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _ColorGradient: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorGradingDark: {r: 0.048593793, g: 0.11320752, b: 0.05157832, a: 1}
     - _ColorGradingLight: {r: 0.75851804, g: 0.9339623, b: 0.7533375, a: 1}
     - _ColorGradingMiddle: {r: 0.2015563, g: 0.37123778, b: 0.2086369, a: 1}
@@ -316,13 +370,18 @@ Material:
     - _DiffuseColor: {r: 0.4227038, g: 0.5566038, b: 0.42989424, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
+    - _FlatRimColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _FlatSpecularColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _FrontFaceTint: {r: 1, g: 1, b: 1, a: 1}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
     - _RimColor: {r: 0.21261214, g: 0.6132076, b: 0.21115166, a: 1}
     - _Shape2Color: {r: 1, g: 1, b: 1, a: 1}
     - _Shape3Color: {r: 1, g: 1, b: 1, a: 1}
     - _ShapeColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShnColor: {r: 1, g: 1, b: 0, a: 1}
+    - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
   m_BuildTextureStacks: []

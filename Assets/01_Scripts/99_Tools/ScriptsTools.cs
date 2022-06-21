@@ -58,7 +58,7 @@ public static class Arguments<TFirstArgument>
     
 }
 
-public abstract class SingletonManager<T> : SerializedMonoBehaviour where T : SingletonManager<T>
+public abstract class SingletonManager<T> : MonoBehaviour where T : SingletonManager<T>
 {
     public static T current; 
     

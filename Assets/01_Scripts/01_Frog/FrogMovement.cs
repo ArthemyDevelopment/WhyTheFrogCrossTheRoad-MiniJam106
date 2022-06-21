@@ -8,7 +8,9 @@ public class FrogMovement : MonoBehaviour
     public Vector3 EndPos;
     float time;
     public AnimationCurve EaseCurve;
+    private Animator frogAnim;
 
+    public float MidleStopTime;
     
     private Vector3 startPos;
     private float startTime;
@@ -19,6 +21,7 @@ public class FrogMovement : MonoBehaviour
     private void Start()
     {
         time = TilesManager.current.timeScale;
+        frogAnim = GetComponent<Animator>();
         SetEndPos();
     }
 
@@ -27,6 +30,7 @@ public class FrogMovement : MonoBehaviour
         if (TilesManager.current.actState == GameStates.think)
         {
             TilesManager.current.actState = GameStates.frogPath;
+            frogAnim.SetTrigger("StartJump");
             finish = false;
         }
     }
@@ -43,16 +47,22 @@ public class FrogMovement : MonoBehaviour
             transform.position = actPos;
 
             startTime += Time.deltaTime;
+
+            if (slerp >= 0.5f)
+            {
+                frogAnim.SetTrigger("FallJump");
+            }
+            
             
             if (slerp >= 1)
             {
-                
+                frogAnim.SetTrigger("Fall");
                 slerp = 1;
                 transform.position = EndPos;
                 finish = true;
                 if (TilesManager.current.actState == GameStates.frogPath)
                 {
-                    EndLerp();
+                    StartCoroutine(EndLerp());
                 }
             }
         }
@@ -69,11 +79,11 @@ public class FrogMovement : MonoBehaviour
     }
 
 
-    void EndLerp()
+    IEnumerator EndLerp()
     {
         if (TilesManager.current.actState != GameStates.frogPath)
-            return;
-        
+            yield break; 
+
         RaycastHit hit;
 
         TilePath tc;
@@ -88,26 +98,42 @@ public class FrogMovement : MonoBehaviour
                 {
                     TilesManager.current.Score++;
                     TilesManager.current.won=true;
+                    frogAnim.SetTrigger("Idle");
+                    yield return ScriptsTools.GetWait(MidleStopTime);
                     StartCoroutine(TilesManager.current.EndGame());
-                    return;
+                    yield break;
                 }
+                if(hit.transform.CompareTag("Death") )
+                   frogAnim.SetTrigger("Lost");
+                if(hit.transform.CompareTag("Water"))
+                    frogAnim.SetTrigger("Water");
+                yield return ScriptsTools.GetWait(MidleStopTime);
                 StartCoroutine(TilesManager.current.EndGame());
-                return;
+                yield break;
 
             }
 
 
             if (tc.target == null)
             {
+                if(hit.transform.CompareTag("Death") )
+                    frogAnim.SetTrigger("Lost");
+                if(hit.transform.CompareTag("Water"))
+                    frogAnim.SetTrigger("Water");
+                yield return ScriptsTools.GetWait(MidleStopTime);
                 StartCoroutine(TilesManager.current.EndGame());
-                return;
+                yield break;
             }
    
             transform.LookAt(new Vector3(tc.target.position.x,transform.position.y,tc.target.position.z));
             SetEndPos();
+            yield return ScriptsTools.GetWait(MidleStopTime);
+            frogAnim.SetTrigger("StartJump");
             finish = false;
-            return;
+            yield break;
         }
+        frogAnim.SetTrigger("Lost");
+        yield return ScriptsTools.GetWait(MidleStopTime);
         StartCoroutine(TilesManager.current.EndGame());
 
 

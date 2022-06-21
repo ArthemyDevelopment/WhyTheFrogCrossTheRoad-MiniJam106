@@ -62,7 +62,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
-  - {fileID: -8067726398312463513, guid: 3a4520a2aef968e428e7d5880df598bb, type: 3}
+  - {fileID: 2100000, guid: 2e0ef0533b278a44fa1ef2aa1e681166, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc20eba2a114111488f98b3a3bd477b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e0ef0533b278a44fa1ef2aa1e681166, type: 2}
     - target: {fileID: 919132149155446097, guid: dc20eba2a114111488f98b3a3bd477b7, type: 3}
       propertyPath: m_Name
       value: campfire_large
@@ -493,6 +497,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
       propertyPath: m_Name
       value: grass_dense
@@ -567,6 +575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e9f0606681451448ba01be9dbc6641f, type: 2}
     - target: {fileID: 919132149155446097, guid: b5d07ba068f385b44b43a6737ff2f95b, type: 3}
       propertyPath: m_Name
       value: grass_dense_01
